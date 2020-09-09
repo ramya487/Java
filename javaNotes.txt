@@ -85,6 +85,12 @@ Arrays.deepToString(arrayObject); - for two dimensional arrays
 Builtin arrays - mutable
 one/twoDimensional.length - to get the length
 
+Math class
+
+from java.lang
+
+Math.abs(element) returns absolute value
+
 [][] - to access the elements
 
 TWO DIMENSIONAL MATRICES
