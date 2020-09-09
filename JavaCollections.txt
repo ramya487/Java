@@ -2,7 +2,7 @@ List - interface
 ArrayList, LinkedList - implementations of List interface
 add()
 remove()
-get()
+get() 
 set()
 
 
