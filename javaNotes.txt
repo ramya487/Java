@@ -1,0 +1,114 @@
+ArrayList class
+
+import java.util.ArrayList
+
+can contain duplicate elements
+
+ArrayList<Generic Type> varName = new ArrayList<Generic Type>();
+
+varName.size()
+varName.add(element) - added to the last
+varName.add(index, element) 
+varName.get()
+varName.remove(item) - 1st occurrence removed
+varName.remove(index)
+varName.indexOf(element) - 1st occurrence
+varName.set(index, value) - replace an element at the specified index with value
+varName.contains(element) - returns boolean
+
+Arrays.asList(array) - generate a List out of an array // wraps around an existing array cannot add or remove elements diff from ArrayList
+
+String class
+
+Part of java.lang package - so no need to import anything
+
+String varName = string literal / new String("string");
+
+Strings are immutable objects
+
+varName.length()
+
+varName.concat(string)
+When concat method is called - the result of the Object's toString method call
+is added to the original string
+
+varName.equals(string)
+compares only the value of the string
+== compares whether the two references point to the same object
+
+varName.equalsIgnoreCase(string)
+ignores casing
+
+varName.compareTo(string)
+returns int
+0 - Strings equals : white spaces discarded
+<0 - varName < string : white spaces not discareded
+>0 - varName > string
+
+varName.compareToIgnoreCase()
+ignores casing when comparing
+
+Order of Unicode chars
+first Capitals then small letters
+
+varName.indexOf(substring)
+first occurrence
+returns index
+return -1 if not found
+varName.charAt(index)
+return character at the specified index
+error if IndexOutOfBounds
+
+substring(start) - beginning till end
+substring(start, stop) - start - inclusive and stop - exclusive
+
+varName.toUpperCase() / varName.toLowerCase()
+
+varName.split(character, limit)
+
+Scanner class - get input from user
+import java.util.Scanner
+
+Scanner myObj = new Scanner(System.in);
+int varName = myObj.nextInt(); - to get integer input
+refer docs for other type inputs
+
+Arrays class
+
+import java.util.Arrays
+
+Arrays.toString(arrayObject) : to display the array as it is instead of the memory address.
+Best result for one dimensional array only
+
+Arrays.deepToString(arrayObject); - for two dimensional arrays
+
+Builtin arrays - mutable
+one/twoDimensional.length - to get the length
+
+[][] - to access the elements
+
+TWO DIMENSIONAL MATRICES
+
+ROW MAJOR TRAVERSAL
+for (int i = 0; i<matrix.length; i++){
+    for (int j = 0; j<matrix[0].length; j++){
+        ele = matrix[i][j];
+    }
+}
+
+COLUMN MAJOR TRAVERSAL
+for (int i = 0; i<matrix[0].length; i++){
+    for (int j = 0; j<matrix.length; j++){
+        ele = matrix[j][i];
+    }
+}
+
+JAVA TYPE CONVERSION
+
+String to int(primitive type): Integer.parseInt(String);
+
+Integer - class
+parseInt() - static method of Integer class
+public static int parseInt(String parameter) - declaration
+- No need to import - part of java.lang.Number
+
