@@ -1,1 +1,2 @@
 template classes
+equals() and hashCode() methods for objects as keys in map or elements of a set
