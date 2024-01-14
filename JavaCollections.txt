@@ -68,3 +68,7 @@ queue.size() - returns the no.of.elements present in the queue
 queue1.equals(queue2) 
 - checks if two queues contain same elements in the same order same type too.
 - returns boolean
+
+String class
+
+valueOf() - takes an int and returns a String - static method
