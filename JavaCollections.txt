@@ -1,0 +1,70 @@
+List - interface
+ArrayList, LinkedList - implementations of List interface
+add()
+remove()
+get()
+set()
+
+
+
+
+Map - interface
+HashMap - implementation of Map interface - does not maintain any order
+LinkedHashMap - implementation of Map interface - maintains the order of insertion
+TreeMap - implementation of Map interface - sorted order of keys
+put() - add/update
+remove()
+get()
+values()
+keySet() // returns a set
+putAll() // copies the key:value pairs of second map to the first making updations as necessary first map changed
+containsKey()
+
+iteration
+for (Map.Entry<String, Object> entry : map.entrySet()) {
+    String key = entry.getKey();
+    Object value = entry.getValue();
+    // ...
+}
+
+
+
+
+Set - interface
+HashSet - implementation of Set interface - does not maintain order
+LinkedHashSet - implementation of Set interface - maintains the order of insertion
+TreeSet - implementation of the Set interface - maintains a sorted order
+Note: contains() method to TreeSet throws error when the comparing types are not the same
+add()
+contains()
+isEmpty()
+remove()
+removeAll() - changes inplace of the first set
+retainAll() - changes inplace of the first set
+
+
+Queue - interface
+
+ArrayBlockingQueue, LinkedList - implementation classes
+
+methods of Queue
+
+1. throws exceptions
+add()
+remove()
+element()
+
+2. returns special values instead of exceptions
+offer() - returns false
+poll() - returns null
+peek() - returns null
+
+Note: Two more types of methods are available for blocking queues which could be used when using threads
+
+ArrayBlockingQueue - with capasity (compulsory)
+LinkedList - no capasity (compulsory)
+
+queue.size() - returns the no.of.elements present in the queue
+queue1.equals(queue2) 
+- checks if two queues contain same elements in the same order same type too.
+- returns boolean

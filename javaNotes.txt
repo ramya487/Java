@@ -112,3 +112,6 @@ parseInt() - static method of Integer class
 public static int parseInt(String parameter) - declaration
 - No need to import - part of java.lang.Number
 
+Collections class
+Collections.sort(object);
+

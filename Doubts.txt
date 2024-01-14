@@ -1,2 +1,5 @@
 template classes
 equals() and hashCode() methods for objects as keys in map or elements of a set
+
+use a class that implements comparator interface interface to sort elements
+natural ordering and sorting lists videos
