@@ -6,8 +6,6 @@ get()
 set()
 
 
-
-
 Map - interface
 HashMap - implementation of Map interface - does not maintain any order
 LinkedHashMap - implementation of Map interface - maintains the order of insertion
