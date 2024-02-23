@@ -115,3 +115,24 @@ public static int parseInt(String parameter) - declaration
 Collections class
 Collections.sort(object);
 
+
+THIS KEYWORD
+
+- Used to refer to the instance variables inside the methods of a class
+- Used to call the class methods inside of the methods of the same class- 
+- Used to clas class constructors inside of the constructors of the same class
+
+STATIC KEYWORD
+
+- Used when the member needs to be common across all the objects
+- Created at the time of class creation
+- Static methods cannot access instance members since they are created only at the time of object creation
+
+FINAL KEYWORD
+
+- Used when a variable should not be reassigned anywhere in the program
+- Must be initialized at the time of creation
+
+* COMBINATION OF STATIC AND FINAL KEYWORDS COULD BE USED TO CREATE CLASS CONSTANTS
+* STATIC KEYWORD COULD BE USED TO KEEP TRACK OF HOW MANY INSTANCES OF THE CLASS IS CREATED
+* ANOTHER USE OF STATIC IS TO ASSIGN UNIQUE ID TO INSTANCES OF OBJECTS ie., INCREMENT COUNT AND ASSIGN IT AS ID
