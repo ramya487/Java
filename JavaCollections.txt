@@ -3,7 +3,7 @@ ArrayList, LinkedList - implementations of List interface
 add()
 remove()
 get() 
-set()
+set() 
 
 
 Map - interface
